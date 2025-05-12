@@ -1,0 +1,127 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #007074;
+  border-bottom: 5px solid #034c53;
+}
+
+.form-container nav h1 {
+  font-size: 2rem;
+  color: #ffd2c8;
+  filter: drop-shadow(3px 3px 0px #f8725b);
+}
+
+.form-container nav .nav-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-container nav .back-button {
+  text-decoration: none;
+  padding: 11px 20px;
+  font-size: 1rem;
+  color: #f8725b;
+  background-color: #ffd2c8;
+  filter: drop-shadow(3px 3px 0px #f8725b);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-container nav .back-button:hover {
+  background-color: #f1c6bc;
+}
+
+.form-container nav .back-button:active {
+  filter: drop-shadow(0px 0px 0px);
+  transform: translate(3px, 3px);
+}
+
+.form-content {
+  flex: 1;
+  background-color: #ffd2c8;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-content form {
+  background-color: #007074;
+  padding: 30px;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 600px;
+  filter: drop-shadow(5px 5px 0px #034c53);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ffd2c8;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #034c53;
+  border-radius: 4px;
+  background-color: #ffd2c8;
+  color: #007074;
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #f8725b;
+}
+
+.form-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f8725b;
+  background-color: #ffd2c8;
+  filter: drop-shadow(3px 3px 0px #f8725b);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #f1c6bc;
+}
+
+.submit-button:active {
+  filter: drop-shadow(0px 0px 0px);
+  transform: translate(3px, 3px);
+}
