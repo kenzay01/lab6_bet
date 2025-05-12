@@ -1,1 +1,1 @@
-# lab5_bet
+# lab6_bet
